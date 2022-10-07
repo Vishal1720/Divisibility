@@ -1,9 +1,6 @@
 let a=document.getElementsByClassName("numbers");
 textEntered =document.getElementById("textField");
 
-
-
-
 function checkIfDivisible()
 {
   let init=a[0].value-1;//alteration made here to support next 100 function
@@ -21,11 +18,7 @@ function checkIfDivisible()
         a[i].style.backgroundColor = "orangered";
         init++;
     }
-    
-
 };
-
-
 
 textEntered.addEventListener('keyup',(e)=>
 {
