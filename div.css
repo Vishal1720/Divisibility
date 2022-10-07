@@ -1,0 +1,69 @@
+h1
+{
+margin-left: 33%;
+color: rgb(194, 209, 57);
+font-size: 44px;
+font-weight: 300;
+
+}
+body
+{
+    background-color: rgb(206, 51, 51);
+}
+.NEXT
+{
+    width: 130px;
+    height: 34px;
+    margin-bottom: 6px;
+    margin-left: 3px;
+    color: whitesmoke;
+    background-color: blue;
+    font-size: 22px;
+    border-radius: 33px;
+
+}
+#textField
+{
+   
+    width: 219px;
+    height: 43px; 
+    border: black 2px groove;
+    margin-left: 43%;
+    
+    margin-bottom: 9px;
+    font-size: 31px;
+    justify-content: center;
+    
+}
+.numbers
+{
+    width:95px;
+    height: 95px;
+    font-size: 39px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background-color:rosybrown;
+    font-weight: 200;
+    font-family:Arial, Helvetica, sans-serif ;
+    border-radius: 20%;
+    color: rgb(0, 0, 0);
+}
+#submit
+{
+    width: 130px;
+    height: 34px;
+    margin-bottom: 6px;
+    margin-left: 43%;
+    color: whitesmoke;
+    background-color: blue;
+    font-size: 22px;
+    border-radius: 33px;
+   
+    
+}
+div
+{
+    margin-left: 12%;
+   
+
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Divisibility</title>
+    <link rel="stylesheet" href="./div.css">
+    
+</head>
+<body>
+    <h1>Check Number Divisibility</h1>
+    <input type="number"  id="textField" placeholder="Enter number "><br>
+    <input type="button" value="Submit" id="submit" onclick="checkIfDivisible()"><input type="button" value="Next 100" onclick="next100()" class="NEXT"><br>
+    <div><input type="button" class="numbers" value="1"></button>
+    <input type="button" class="numbers" value="2"></button>
+    <input type="button" class="numbers" value="3"></button>
+    <input type="button" class="numbers" value="4"></button>
+    <input type="button" class="numbers" value="5"></button>
+    <input type="button" class="numbers" value="6"></button>
+    <input type="button" class="numbers" value="7"></button>
+    <input type="button" class="numbers" value="8"></button>
+    <input type="button" class="numbers" value="9"></button>
+    <input type="button" class="numbers" value="10"></button>
+    <br>
+    <input type="button" class="numbers" value="11"></button>
+    <input type="button" class="numbers" value="12"></button>
+    <input type="button" class="numbers" value="13"></button>
+    <input type="button" class="numbers" value="14"></button>
+    <input type="button" class="numbers" value="15"></button>
+    <input type="button" class="numbers" value="16"></button>
+    <input type="button" class="numbers" value="17"></button>
+    <input type="button" class="numbers" value="18"></button>
+    <input type="button" class="numbers" value="19"></button>
+    <input type="button" class="numbers" value="20"></button>
+    <br>
+    <input type="button" class="numbers" value="21"></button>
+    <input type="button" class="numbers" value="22"></button>
+    <input type="button" class="numbers" value="23"></button>
+    <input type="button" class="numbers" value="24"></button>
+    <input type="button" class="numbers" value="25"></button>
+    <input type="button" class="numbers" value="26"></button>
+    <input type="button" class="numbers" value="27"></button>
+    <input type="button" class="numbers" value="28"></button>
+    <input type="button" class="numbers" value="29"></button>
+    <input type="button" class="numbers" value="30"></button>
+    <br>
+    <input type="button" class="numbers" value="31"></button>
+    <input type="button" class="numbers" value="32"></button>
+    <input type="button" class="numbers" value="33"></button>
+    <input type="button" class="numbers" value="34"></button>
+    <input type="button" class="numbers" value="35"></button>
+    <input type="button" class="numbers" value="36"></button>
+    <input type="button" class="numbers" value="37"></button>
+    <input type="button" class="numbers" value="38"></button>
+    <input type="button" class="numbers" value="39"></button>
+    <input type="button" class="numbers" value="40"></button>
+    <br>
+    <input type="button" class="numbers" value="41"></button>
+    <input type="button" class="numbers" value="42"></button>
+    <input type="button" class="numbers" value="43"></button>
+    <input type="button" class="numbers" value="44"></button>
+    <input type="button" class="numbers" value="45"></button>
+    <input type="button" class="numbers" value="46"></button>
+    <input type="button" class="numbers" value="47"></button>
+    <input type="button" class="numbers" value="48"></button>
+    <input type="button" class="numbers" value="49"></button>
+    <input type="button" class="numbers" value="50"></button>
+    <br>
+    <input type="button" class="numbers" value="51"></button>
+    <input type="button" class="numbers" value="52"></button>
+    <input type="button" class="numbers" value="53"></button>
+    <input type="button" class="numbers" value="54"></button>
+    <input type="button" class="numbers" value="55"></button>
+    <input type="button" class="numbers" value="56"></button>
+    <input type="button" class="numbers" value="57"></button>
+    <input type="button" class="numbers" value="58"></button>
+    <input type="button" class="numbers" value="59"></button>
+    <input type="button" class="numbers" value="60"></button>
+    <br>
+    <input type="button" class="numbers" value="61"></button>
+    <input type="button" class="numbers" value="62"></button>
+    <input type="button" class="numbers" value="63"></button>
+    <input type="button" class="numbers" value="64"></button>
+    <input type="button" class="numbers" value="65"></button>
+    <input type="button" class="numbers" value="66"></button>
+    <input type="button" class="numbers" value="67"></button>
+    <input type="button" class="numbers" value="68"></button>
+    <input type="button" class="numbers" value="69"></button>
+    <input type="button" class="numbers" value="70"></button>
+    <br>
+    <input type="button" class="numbers" value="71"></button>
+    <input type="button" class="numbers" value="72"></button>
+    <input type="button" class="numbers" value="73"></button>
+    <input type="button" class="numbers" value="74"></button>
+    <input type="button" class="numbers" value="75"></button>
+    <input type="button" class="numbers" value="76"></button>
+    <input type="button" class="numbers" value="77"></button>
+    <input type="button" class="numbers" value="78"></button>
+    <input type="button" class="numbers" value="79"></button>
+    <input type="button" class="numbers" value="80"></button>
+    <br>
+    <input type="button" class="numbers" value="81"></button>
+    <input type="button" class="numbers" value="82"></button>
+    <input type="button" class="numbers" value="83"></button>
+    <input type="button" class="numbers" value="84"></button>
+    <input type="button" class="numbers" value="85"></button>
+    <input type="button" class="numbers" value="86"></button>
+    <input type="button" class="numbers" value="87"></button>
+    <input type="button" class="numbers" value="88"></button>
+    <input type="button" class="numbers" value="89"></button>
+    <input type="button" class="numbers" value="90"></button>
+    <br>
+    <input type="button" class="numbers" value="91"></button>
+    <input type="button" class="numbers" value="92"></button>
+    <input type="button" class="numbers" value="93"></button>
+    <input type="button" class="numbers" value="94"></button>
+    <input type="button" class="numbers" value="95"></button>
+    <input type="button" class="numbers" value="96"></button>
+    <input type="button" class="numbers" value="97"></button>
+    <input type="button" class="numbers" value="98"></button>
+    <input type="button" class="numbers" value="99"></button>
+    <input type="button" class="numbers" value="100"></button>
+    <br>
+    </body>
+    <script src="div.js"></script>
+</div>
+</body>
+</html>
