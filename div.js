@@ -12,7 +12,7 @@ function checkIfDivisible()
     {
        
         count=init+1;
-        console.log(count)
+        
         if(textEntered.value%count==0)
         {
              a[i].style.backgroundColor = "lawngreen";
@@ -38,12 +38,33 @@ event,use e.keyCode === 13 since it is normal*/
 
 function next100()
 {
+    
 let final=a[99].value;
-for(i=0;i<a.length;i++)
+final++;
+if(final<=10000)
    {
+for(i=0;i<a.length;i++)
+     {
     a[i].value=final;
     final++;
-   }
+      }
    checkIfDivisible();
+   }
+};
 
+function prev100()
+{
+    let base = a[0].value-1;
+    console.log("base is "+base);
+    if(base>1)
+    {
+           for(i=a.length-1;i>=0;i--)//i=a.length-1 because it returns 100 and array starts from 0 and ends at n-1 
+              {
+                
+                a[i].value = base;
+                base=base-1;
+                
+              }
+              checkIfDivisible();
+    }
 }
