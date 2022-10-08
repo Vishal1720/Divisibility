@@ -3,9 +3,6 @@ textEntered =document.getElementById("textField");
 nextBtn = document.getElementById("NEXT");
 prevBtn = document.getElementById("PREV");
 
-console.log(nextBtn)
-
-
 function checkIfDivisible()
 {
   checkColor();
@@ -32,8 +29,6 @@ function checkIfDivisible()
   }
 
 };
-
-
 
 textEntered.addEventListener('keyup',(e)=>
 {
