@@ -62,6 +62,7 @@ body
     font-family:Arial, Helvetica, sans-serif ;
     border-radius: 20%;
     color: rgb(0, 0, 0);
+    transition: 0.3s linear ;
 }
 #submit
 {
